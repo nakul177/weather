@@ -18,7 +18,7 @@ import {
 const Weather = () => {
   const [data, setData] = useState([]);
   const [cordData, setCordData] = useState([]);
-  const [query, setQuery] = useState("Aurangabad");
+  const [query, setQuery] = useState("Pune");
   const [active, setActive] = useState(0);
   const [inputStyle, setInputStyle] = useState(false);
   const [display, setDisplay] = useState([]);
